@@ -1,48 +1,28 @@
-
 🖥️ System Inspector & Cleaner
 
-A modern desktop app for real-time system monitoring and basic cleanup operations.
-Gerçek zamanlı sistem izleme ve temel temizlik işlemleri için modern bir masaüstü uygulaması.
+A modern desktop application for real-time system monitoring and basic cleanup operations. It provides a clean dark interface and allows users to track system performance easily.
 
-🎯 Overview / Genel Bakış
+🎯 Overview
 
-🇬🇧 English:
-System Inspector & Cleaner monitors CPU, RAM, (and if available) GPU usage, keeps logs, and offers basic cleanup tools. It features a clean dark UI and can be packaged as a standalone executable.
+System Inspector & Cleaner monitors CPU, RAM, and (if available) GPU usage, keeps timestamped logs, and offers simple cleanup tools for temporary and unnecessary files. It can also be packaged as a standalone executable for easy distribution.
 
-🇹🇷 Türkçe:
-System Inspector & Cleaner, CPU, RAM ve (varsa) GPU kullanımını izler, loglar oluşturur ve temel temizlik araçları sunar. Karanlık ve modern bir arayüze sahiptir, tek dosyalık çalıştırılabilir olarak paketlenebilir.
-
-✅ Features / Özellikler
-
-🇬🇧 English:
+✅ Features
 
 Real-time monitoring (CPU / RAM / GPU)
 
-Logging with timestamps
+Timestamped logging
 
 Temporary file cleanup
 
 Dark UI (customtkinter)
 
-Buildable as .exe with PyInstaller
+Executable build support via PyInstaller
 
-🇹🇷 Türkçe:
+🖼️ Screenshots
 
-Gerçek zamanlı izleme (CPU / RAM / GPU)
+(Add your screenshots here)
 
-Zaman damgalı log kaydı
-
-Geçici dosya temizleme
-
-Karanlık arayüz (customtkinter)
-
-PyInstaller ile .exe oluşturma desteği
-
-🖼️ Screenshots / Ekran Görüntüleri
-
-(Add images here / Buraya ekran görüntüleri ekleyebilirsin)
-
-📂 Project Structure / Proje Yapısı
+📂 Project Structure
 
 project
 ├─ ui
@@ -53,75 +33,31 @@ project
 │ └─ logger.py
 └─ logs
 
-🚀 How to Run / Nasıl Çalıştırılır
-
-🇬🇧 English:
+🚀 How to Run
 
 Install Python 3.10+
 
-Install dependencies: pip install -r requirements.txt
+Install dependencies:
+pip install -r requirements.txt
 
-Run the app: python main.py
+Start the application:
+python main.py
 
-🇹🇷 Türkçe:
+🛠️ Build .EXE
 
-Python 3.10+ kurulu olmalı
-
-Gerekli kütüphaneleri yükle: pip install -r requirements.txt
-
-Uygulamayı başlat: python main.py
-
-🛠️ Build .EXE / .EXE Oluşturma
-
-PyInstaller komutu:
+Use PyInstaller:
 pyinstaller --noconsole --onefile --add-data "core;core" ui/main.py
 
-🇬🇧 English:
-The .exe file will be located in the dist/ folder.
+The generated .exe file will be located in the dist/ folder.
 
-🇹🇷 Türkçe:
-Oluşan .exe dosyası dist/ klasöründe bulunur.
-
-⚠️ Notes / Notlar
-
-🇬🇧 English:
+⚠️ Notes
 
 Cleanup operations target safe directories only.
 
-Some actions may require admin permissions.
+Some actions may require administrator permissions.
 
-Logs are stored locally on the device.
+Log files are stored locally on the device.
 
-🇹🇷 Türkçe:
-
-Temizlik işlemleri yalnızca güvenli klasörlerde çalışır.
-
-Bazı işlemler yönetici izni gerektirebilir.
-
-Log dosyaları cihazda yerel olarak saklanır.
-
-🚧 Future Plans / Gelecek Planları
-
-🇬🇧 English:
-
-Disk usage charts
-
-Background monitoring
-
-Temperature sensor support
-
-Cloud log sync
-
-🇹🇷 Türkçe:
-
-Disk kullanım grafikleri
-
-Arka planda izleme
-
-Sıcaklık sensörü desteği
-
-Bulut log senkronizasyonu
-
-👤 Developer / Geliştirici
+👤 Developer
 
 Erdem Aydın
